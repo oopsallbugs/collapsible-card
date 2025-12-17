@@ -1,0 +1,32 @@
+{
+  "name": "collapsible-card",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Animated collapsible card wrapper for Home Assistant Lovelace",
+  "keywords": [
+    "home-assistant",
+    "homeassistant",
+    "lovelace",
+    "custom-cards",
+    "hacs"
+  ],
+  "module": "collapsible-card.js",
+  "author": "Sam",
+  "license": "MIT",
+  "dependencies": {
+    "custom-card-helpers": "^1.9.0",
+    "lit": "^2.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.2.0",
+    "@rollup/plugin-terser": "^0.4.0",
+    "rollup": "^3.29.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.2.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c --watch"
+  }
+}
