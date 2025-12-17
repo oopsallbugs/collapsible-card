@@ -11,7 +11,11 @@
     "hacs"
   ],
   "module": "collapsible-card.js",
-  "author": "Sam",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oopsallbugs/collapsible-card.git"
+  },
+  "author": "oopsallbugs",
   "license": "MIT",
   "dependencies": {
     "custom-card-helpers": "^1.9.0",
